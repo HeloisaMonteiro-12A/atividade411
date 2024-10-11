@@ -1,1 +1,41 @@
-/* Add styles here */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Roboto Mono, sans-serif;
+}
+
+header{
+    background-color: #D2691E;
+    height: 8rem;  
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+}
+
+.primeira img{
+    width: 30rem;
+}
+
+.primeira p{
+    max-width: 20rem;
+    margin-right: 2rem;
+}
+
+.primeira{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.segunda{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #7b9971;
+}
+
+.segunda img{
+    width: 30rem;
+}
