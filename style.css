@@ -2,7 +2,11 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-family: Roboto Mono, sans-serif;
+    font-family: Montserrat, sans-serif;
+}
+
+h1{
+    font-family: Merriweather;
 }
 
 header{
@@ -32,10 +36,39 @@ header{
 .segunda{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #7b9971;
+    height: 20rem;
+    
 }
 
 .segunda img{
-    width: 30rem;
+    width: 26rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.segunda p{
+    max-width: 15rem;
+    margin-right: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.terceira{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.terceira img{
+    width: 25rem;
+    height: 15rem;
+    height: auto;
+    margin-bottom: 3.5rem;
+}
+
+.segunda, .terceira{
+    margin-bottom: 3.5rem;
 }
