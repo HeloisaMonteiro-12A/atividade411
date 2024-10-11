@@ -7,6 +7,7 @@
 
 h1{
     font-family: Merriweather;
+    color: #ae2106;
 }
 
 header{
@@ -53,6 +54,7 @@ header{
     margin-right: 5rem;
     justify-content: center;
     align-items: center;
+    color: #2e511f;
 }
 
 .terceira{
